@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 android {
-    compileSdkVersion 28
+    compileSdkVersion compilesdkversion
 
 
     defaultConfig {
         applicationId "com.yunzhi.hook"
-        minSdkVersion 14
-        targetSdkVersion 28
+        minSdkVersion minsdkversion
+        targetSdkVersion targetsdkversion
         versionCode 1
         versionName "1.0"
 

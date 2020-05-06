@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/aidldemo" />
             <option value="$PROJECT_DIR$/aop" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base" />
             <option value="$PROJECT_DIR$/bluetooth" />
             <option value="$PROJECT_DIR$/camerax" />
             <option value="$PROJECT_DIR$/databinding" />
@@ -25,7 +26,6 @@
             <option value="$PROJECT_DIR$/pluginframe" />
             <option value="$PROJECT_DIR$/usbserial" />
             <option value="$PROJECT_DIR$/webview" />
-            <option value="$PROJECT_DIR$/../../workspace/androidpublic/common" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

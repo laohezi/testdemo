@@ -7,10 +7,9 @@ evaluate(new File(
 rootProject.name='testdemo'
 
 
-def androidPublicPath = "C:/Users/mc/code/workspace/androidpublic/"
-include(':common')
-project(':common').projectDir = file("${androidPublicPath}common")
+
 include ':usbserial'
 include ':aidldemo'
 include ':flutterapp'
 include ':webview'
+include ':base'

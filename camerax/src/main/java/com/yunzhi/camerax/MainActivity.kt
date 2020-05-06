@@ -9,14 +9,12 @@ import android.os.Handler
 import android.util.Rational
 import android.util.Size
 import androidx.camera.core.*
-import com.yunzhi.common.kotlin.printDetail
-import com.yunzhi.common.utils.BitmapUtils
+
 import kotlinx.android.synthetic.main.activity_main.*
-import permissions.dispatcher.NeedsPermission
-import permissions.dispatcher.RuntimePermissions
+
 import java.nio.ByteBuffer
 
-@RuntimePermissions
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    @NeedsPermission(Manifest.permission.CAMERA)
+
     fun startCamera() {
         val previewConfig = PreviewConfig.Builder().apply {
             setTargetAspectRatio(Rational(1, 1))

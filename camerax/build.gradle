@@ -3,13 +3,13 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin :'kotlin-kapt'
 android {
-    compileSdkVersion 28
+    compileSdkVersion compilesdkversion
 
 
     defaultConfig {
         applicationId "com.yunzhi.camerax"
-        minSdkVersion 21
-        targetSdkVersion 28
+        minSdkVersion minsdkversion
+        targetSdkVersion targetsdkversion
         versionCode 1
         versionName "1.0"
 
@@ -57,5 +57,5 @@ dependencies {
         implementation "androidx.camera:camera-extensions:$camerax_ext_version"
     }
 
-    implementation project(":common")
+   // implementation project(":common")
 }

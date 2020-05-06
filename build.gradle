@@ -48,7 +48,7 @@ ext {
     isModule = false
     compilesdkversion = 28
     buildtoolsversion = '28.0.3'
-    minsdkversion = 14
+    minsdkversion = 19
     targetsdkversion = 22
     supportversion = '1.0.0'
 }
