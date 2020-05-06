@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#142266"
+    android:padding="10dp">
+
+    <androidx.constraintlayout.helper.widget.Flow
+        app:layout_constraintTop_toTopOf="@id/iv_scene_photo"
+        app:layout_constraintStart_toEndOf="@id/iv_scene_photo"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        app:flow_wrapMode="chain"
+        app:flow_verticalGap="5dp"
+        android:layout_marginStart="20dp"
+        app:flow_horizontalAlign="start"
+        app:constraint_referenced_ids="tv_name,tv_phone,tv_unit,tv_score,tv_time,tv_temp,tv_match_result"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb_select"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未识别"
+      />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10086"
+
+       />
+
+    <TextView
+        android:id="@+id/tv_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="云智"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.2356"
+       />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020/03/32"
+       />
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="36.5"
+        android:textSize="14sp"
+      />
+
+    <TextView
+        android:id="@+id/tv_match_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通过"
+        android:textSize="14sp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_scene_photo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="3:4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

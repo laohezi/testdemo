@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开关"
+        app:layout_constraintBottom_toTopOf="@+id/bt_bound"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_bound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询已配对"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bt_switch"
+        app:layout_constraintStart_toStartOf="@+id/bt_switch"
+        app:layout_constraintTop_toBottomOf="@+id/bt_switch" />
+
+    <Spinner
+        android:id="@+id/sp_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_switch"
+        app:layout_constraintStart_toEndOf="@+id/bt_switch"
+        app:layout_constraintTop_toTopOf="@+id/bt_switch" />
+
+    <Spinner
+        android:id="@+id/sp_bound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_bound"
+        app:layout_constraintStart_toEndOf="@+id/bt_bound"
+        app:layout_constraintTop_toTopOf="@+id/bt_bound" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

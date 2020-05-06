@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aidldemo" />
+            <option value="$PROJECT_DIR$/aop" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bluetooth" />
+            <option value="$PROJECT_DIR$/camerax" />
+            <option value="$PROJECT_DIR$/databinding" />
+            <option value="$PROJECT_DIR$/flutterapp" />
+            <option value="$PROJECT_DIR$/flutterr/.android/Flutter" />
+            <option value="$PROJECT_DIR$/hook" />
+            <option value="$PROJECT_DIR$/plugin" />
+            <option value="$PROJECT_DIR$/plugin_p" />
+            <option value="$PROJECT_DIR$/pluginframe" />
+            <option value="$PROJECT_DIR$/usbserial" />
+            <option value="$PROJECT_DIR$/webview" />
+            <option value="$PROJECT_DIR$/../../workspace/androidpublic/common" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

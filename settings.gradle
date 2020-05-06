@@ -1,0 +1,16 @@
+include ':app', ':databinding', ':camerax', ':hook', ':bluetooth', ':aop', ':plugin', ':pluginframe',":plugin_p"
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  'flutterr/.android/include_flutter.groovy'
+))
+rootProject.name='testdemo'
+
+
+def androidPublicPath = "C:/Users/mc/code/workspace/androidpublic/"
+include(':common')
+project(':common').projectDir = file("${androidPublicPath}common")
+include ':usbserial'
+include ':aidldemo'
+include ':flutterapp'
+include ':webview'
