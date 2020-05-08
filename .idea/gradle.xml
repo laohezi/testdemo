@@ -19,11 +19,11 @@
             <option value="$PROJECT_DIR$/camerax" />
             <option value="$PROJECT_DIR$/databinding" />
             <option value="$PROJECT_DIR$/flutterapp" />
-            <option value="$PROJECT_DIR$/flutterr/.android/Flutter" />
             <option value="$PROJECT_DIR$/hook" />
             <option value="$PROJECT_DIR$/plugin" />
             <option value="$PROJECT_DIR$/plugin_p" />
             <option value="$PROJECT_DIR$/pluginframe" />
+            <option value="$PROJECT_DIR$/router" />
             <option value="$PROJECT_DIR$/usbserial" />
             <option value="$PROJECT_DIR$/webview" />
           </set>

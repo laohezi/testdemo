@@ -1,9 +1,5 @@
 include ':app', ':databinding', ':camerax', ':hook', ':bluetooth', ':aop', ':plugin', ':pluginframe',":plugin_p"
-setBinding(new Binding([gradle: this]))
-evaluate(new File(
-  settingsDir,
-  'flutterr/.android/include_flutter.groovy'
-))
+
 rootProject.name='testdemo'
 
 
@@ -13,3 +9,4 @@ include ':aidldemo'
 include ':flutterapp'
 include ':webview'
 include ':base'
+include ':router'
