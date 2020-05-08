@@ -1,13 +1,16 @@
 package com.yunzhi.testdemo
 
 import android.app.Application
+import com.alibaba.android.arouter.launcher.ARouter
 
-class MyApp :Application(){
+class MyApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        Thread.sleep(3000)
 
+        ARouter.openLog()
+        ARouter.openDebug()
+        ARouter.init(this)
     }
 
 }

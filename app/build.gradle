@@ -52,4 +52,7 @@ dependencies {
   //  implementation project(path: ':flutter')
     // implementation project(path: ':flutterr')
     // implementation project(":databinding")
+
+    implementation project(':router_modulea')
+    implementation project(':router_moduleb')
 }

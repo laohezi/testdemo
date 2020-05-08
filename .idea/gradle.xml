@@ -24,6 +24,8 @@
             <option value="$PROJECT_DIR$/plugin_p" />
             <option value="$PROJECT_DIR$/pluginframe" />
             <option value="$PROJECT_DIR$/router" />
+            <option value="$PROJECT_DIR$/router_modulea" />
+            <option value="$PROJECT_DIR$/router_moduleb" />
             <option value="$PROJECT_DIR$/usbserial" />
             <option value="$PROJECT_DIR$/webview" />
           </set>

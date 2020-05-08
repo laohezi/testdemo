@@ -31,14 +31,14 @@ class AopTest {
     }
 
     @Before("exepoint()")
-    fun printBefore(joinPoint: JoinPoint){
-        Log.d("执行日志",joinPoint.signature.toShortString())
+    fun printBefore(joinPoint: JoinPoint) {
+        Log.d("执行日志", joinPoint.signature.toShortString())
     }
 
 }
 
 @Target(AnnotationTarget.FUNCTION)
-annotation class OnLifeCycle{
+annotation class OnLifeCycle {
 
 
 }

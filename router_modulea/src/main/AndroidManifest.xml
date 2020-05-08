@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yunzhi.router_modulea" >
+
+    <application>
+        <activity android:name=".ActivityA" />
+    </application>
+</manifest>
