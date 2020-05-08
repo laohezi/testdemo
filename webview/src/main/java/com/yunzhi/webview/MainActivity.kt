@@ -4,10 +4,7 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.webkit.JavascriptInterface
-import android.webkit.JsResult
-import android.webkit.WebChromeClient
-import android.webkit.WebView
+import android.webkit.*
 import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -33,26 +30,17 @@ class MainActivity : AppCompatActivity() {
 
         web_view.addJavascriptInterface(JsInterface(),"test")
 
-        web_view.loadUrl("file:///android_asset/test.html")
+        web_view.loadUrl("file:///android_asset/index.html#/user")
 
-        web_view.webChromeClient = object : WebChromeClient() {
+        web_view.webViewClient = object : WebViewClient() {
 
-            override fun onJsAlert(
-                view: WebView?,
-                url: String?,
-                message: String?,
-                result: JsResult?
-            ): Boolean {
-
-                AlertDialog.Builder(this@MainActivity)
-                    .setTitle("我来自js")
-                    .setMessage(message)
-                    .create()
-                    .show()
-
-                return true
+            override fun onPageFinished(view: WebView, url: String) {
+                super.onPageFinished(view, url)
+                val title = view.title
+                supportActionBar?.title = title
 
             }
+
 
         }
 
