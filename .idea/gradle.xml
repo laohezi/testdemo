@@ -15,11 +15,13 @@
             <option value="$PROJECT_DIR$/aop" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/bitmap" />
             <option value="$PROJECT_DIR$/bluetooth" />
             <option value="$PROJECT_DIR$/camerax" />
             <option value="$PROJECT_DIR$/databinding" />
             <option value="$PROJECT_DIR$/flutterapp" />
             <option value="$PROJECT_DIR$/hook" />
+            <option value="$PROJECT_DIR$/jni" />
             <option value="$PROJECT_DIR$/plugin" />
             <option value="$PROJECT_DIR$/plugin_p" />
             <option value="$PROJECT_DIR$/pluginframe" />
