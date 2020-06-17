@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/base" />
             <option value="$PROJECT_DIR$/bluetooth" />
             <option value="$PROJECT_DIR$/camerax" />
+            <option value="$PROJECT_DIR$/content_provider_demo" />
             <option value="$PROJECT_DIR$/databinding" />
             <option value="$PROJECT_DIR$/flutterapp" />
             <option value="$PROJECT_DIR$/hook" />
