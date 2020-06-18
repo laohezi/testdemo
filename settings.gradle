@@ -1,3 +1,4 @@
+include ':big_image_view'
 include ':app', ':databinding', ':camerax', ':hook', ':bluetooth', ':aop', ':plugin', ':pluginframe',":plugin_p"
 
 rootProject.name='testdemo'

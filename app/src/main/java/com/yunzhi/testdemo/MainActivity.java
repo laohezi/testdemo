@@ -27,7 +27,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ARouter.getInstance().build("/moduleA/activityA").navigation();
 
-
-        startActivity();
     }
 }
