@@ -1,5 +1,6 @@
 package com.mcl.big_image_view
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -7,8 +8,9 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.widget.ImageView
 
+@SuppressLint("AppCompatCustomView")
 class MclImageView(context: Context, attrs: AttributeSet) :
-    androidx.appcompat.widget.AppCompatImageView(context, attrs) {
+    ImageView(context, attrs) {
     val model = MclModel()
 
     fun setImageBitmap(bmPath: String) {
